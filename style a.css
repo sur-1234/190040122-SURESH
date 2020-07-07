@@ -1,0 +1,63 @@
+body
+{
+background: url("bg.jpg");
+background-repeat: repeat;
+background-position :left top;
+background-attachment: fixed;
+background-size: cover;
+}
+.we{
+  text-align:center;
+  font-size: 60px;
+  text-decoration:underline;
+  text-shadow: 3px 3px 5px white;
+  color: white;
+}
+div.edu{
+  margin: 95px;
+  border: 5px solid white;
+  box-shadow: 5px 5px 10px 10px black;
+  float: left;
+  width: 300px;
+}
+div.edu img {
+  width: 100%;
+  height: auto;
+}
+
+div.dis {
+  padding: 5px;
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+}
+h2{
+  font-size: 40px;
+  margin-left: 50px;
+  text-decoration: underline;
+  color:red;
+  }
+  span{
+    font-size: 30px;
+    color:orange;
+    font-weight: bold;
+  }
+  .ph{
+    border-radius: 50px;
+    vertical-align:middle;
+    margin-left: 20px;
+    height:auto;
+  }
+  a:link, a:visited {
+    background-color: blue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+   border-radius:25px;
+  }
+  a:hover, a:active {
+    background-color: orange;
+  }
